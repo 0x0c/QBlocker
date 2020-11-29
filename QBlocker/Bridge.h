@@ -9,4 +9,6 @@
 #ifndef Bridge_h
 #define Bridge_h
 
+#import "NSApplication+LaunchServices.h"
+
 #endif /* Bridge_h */

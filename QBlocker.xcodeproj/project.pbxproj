@@ -7,65 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13FA35AC1CF623C400A29767 /* ListMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FA35AB1CF623C400A29767 /* ListMode.swift */; };
-		280140151CDA9D5200BC2E78 /* AtLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280140141CDA9D5200BC2E78 /* AtLogin.swift */; };
 		2832CA361CD688E9001D3373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2832CA351CD688E9001D3373 /* AppDelegate.swift */; };
 		2832CA3A1CD688E9001D3373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2832CA391CD688E9001D3373 /* Assets.xcassets */; };
 		2832CA3D1CD688E9001D3373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2832CA3B1CD688E9001D3373 /* Main.storyboard */; };
-		28437E4E1CD93DE4002E90EF /* KeyListenerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28437E4D1CD93DE4002E90EF /* KeyListenerError.swift */; };
-		2853B63B1CD92D9700F186CE /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2853B63A1CD92D9700F186CE /* StatusMenuController.swift */; };
-		2880C4531CD7B3A000545E1F /* KeyListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880C4521CD7B3A000545E1F /* KeyListener.swift */; };
-		2883C1E31CDE30BF0007AC47 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883C1E21CDE30BF0007AC47 /* Delay.swift */; };
-		2883C1E61CDE36B10007AC47 /* FirstRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2883C1E41CDE36B10007AC47 /* FirstRunViewController.swift */; };
-		28A5185B1CDE416800BE7ED1 /* ExcludeWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A5185A1CDE416800BE7ED1 /* ExcludeWindowController.swift */; };
-		28A5185D1CDE49CD00BE7ED1 /* ExcludeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A5185C1CDE49CD00BE7ED1 /* ExcludeViewController.swift */; };
-		28A5185F1CDE87A300BE7ED1 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A5185E1CDE87A300BE7ED1 /* App.swift */; };
-		28A518611CDE8ADF00BE7ED1 /* KeyListener + Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A518601CDE8ADF00BE7ED1 /* KeyListener + Realm.swift */; };
-		28A518631CDE91C200BE7ED1 /* ExcludeViewController + NSTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A518621CDE91C200BE7ED1 /* ExcludeViewController + NSTableViewDataSource.swift */; };
-		28A518671CDE997400BE7ED1 /* ExcludeViewController + NSTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A518661CDE997400BE7ED1 /* ExcludeViewController + NSTableViewDelegate.swift */; };
-		28BEB6831CDBE79D00E693D3 /* AccessibilityWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BEB6811CDBE79D00E693D3 /* AccessibilityWindowController.swift */; };
-		28BEB6861CDBEB6500E693D3 /* OpenPreferences.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 28BEB6851CDBEB4F00E693D3 /* OpenPreferences.scpt */; };
-		28BEB6881CDBEB8200E693D3 /* AccessibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BEB6871CDBEB8200E693D3 /* AccessibilityViewController.swift */; };
-		28DEC8041CD950450012B5E3 /* HUDAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DEC8031CD950450012B5E3 /* HUDAlert.swift */; };
-		28DEC8061CD954EA0012B5E3 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DEC8051CD954EA0012B5E3 /* HUDView.swift */; };
-		28F40A711CFB61EB006719C8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F40A701CFB61EB006719C8 /* TabBarController.swift */; };
-		B1E907CE21AF8B460074B5DB /* CocoaSwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E907CD21AF8B460074B5DB /* CocoaSwiftSupport.swift */; };
 		E9C85A4A2573DD7800436023 /* Pods_QBlocker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE2D0BFC44767B8D2FE86C2 /* Pods_QBlocker.framework */; };
-		E9C85A772573E03300436023 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = E9C85A762573E03300436023 /* SwiftPackageProductDependency */; };
-		E9C85A792573E03300436023 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = E9C85A782573E03300436023 /* SwiftPackageProductDependency */; };
+		E9C85A772573E03300436023 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = E9C85A762573E03300436023 /* Realm */; };
+		E9C85A792573E03300436023 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E9C85A782573E03300436023 /* RealmSwift */; };
+		E9C85A8C2573E28E00436023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85A882573E28E00436023 /* AppDelegate.swift */; };
+		E9C85AAC2573E2E000436023 /* ExcludeViewController+NSTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85A922573E2E000436023 /* ExcludeViewController+NSTableViewDelegate.swift */; };
+		E9C85AAD2573E2E000436023 /* ExcludeViewController+NSTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85A932573E2E000436023 /* ExcludeViewController+NSTableViewDataSource.swift */; };
+		E9C85AAE2573E2E000436023 /* KeyListener+Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85A942573E2E000436023 /* KeyListener+Realm.swift */; };
+		E9C85AAF2573E2E000436023 /* NSApplication+LaunchServices.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C85A962573E2E000436023 /* NSApplication+LaunchServices.m */; };
+		E9C85AB02573E2E000436023 /* ListMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85A992573E2E000436023 /* ListMode.swift */; };
+		E9C85AB12573E2E000436023 /* KeyListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85A9A2573E2E000436023 /* KeyListener.swift */; };
+		E9C85AB22573E2E000436023 /* KeyListenerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85A9B2573E2E000436023 /* KeyListenerError.swift */; };
+		E9C85AB32573E2E000436023 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85A9C2573E2E000436023 /* Delay.swift */; };
+		E9C85AB42573E2E000436023 /* CocoaSwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85A9D2573E2E000436023 /* CocoaSwiftSupport.swift */; };
+		E9C85AB52573E2E000436023 /* AtLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85A9E2573E2E000436023 /* AtLogin.swift */; };
+		E9C85AB62573E2E000436023 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85A9F2573E2E000436023 /* App.swift */; };
+		E9C85AB72573E2E000436023 /* AccessibilityWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85AA22573E2E000436023 /* AccessibilityWindowController.swift */; };
+		E9C85AB82573E2E000436023 /* ExcludeWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85AA32573E2E000436023 /* ExcludeWindowController.swift */; };
+		E9C85AB92573E2E000436023 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85AA42573E2E000436023 /* StatusMenuController.swift */; };
+		E9C85ABA2573E2E000436023 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85AA62573E2E000436023 /* HUDView.swift */; };
+		E9C85ABB2573E2E000436023 /* HUDAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85AA72573E2E000436023 /* HUDAlert.swift */; };
+		E9C85ABC2573E2E000436023 /* AccessibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85AA92573E2E000436023 /* AccessibilityViewController.swift */; };
+		E9C85ABD2573E2E000436023 /* ExcludeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85AAA2573E2E000436023 /* ExcludeViewController.swift */; };
+		E9C85ABE2573E2E000436023 /* FirstRunViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C85AAB2573E2E000436023 /* FirstRunViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13FA35AB1CF623C400A29767 /* ListMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMode.swift; sourceTree = "<group>"; };
-		280140141CDA9D5200BC2E78 /* AtLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtLogin.swift; sourceTree = "<group>"; };
 		2832CA321CD688E9001D3373 /* QBlocker 1.3 beta 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QBlocker 1.3 beta 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2832CA351CD688E9001D3373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2832CA391CD688E9001D3373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2832CA3C1CD688E9001D3373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2832CA3E1CD688E9001D3373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28437E4D1CD93DE4002E90EF /* KeyListenerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyListenerError.swift; sourceTree = "<group>"; };
-		2853B63A1CD92D9700F186CE /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 		2879D1171CDA529C00B64F00 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
-		2880C4521CD7B3A000545E1F /* KeyListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyListener.swift; sourceTree = "<group>"; };
-		2883C1E21CDE30BF0007AC47 /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
-		2883C1E41CDE36B10007AC47 /* FirstRunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstRunViewController.swift; sourceTree = "<group>"; };
-		28A5185A1CDE416800BE7ED1 /* ExcludeWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcludeWindowController.swift; sourceTree = "<group>"; };
-		28A5185C1CDE49CD00BE7ED1 /* ExcludeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcludeViewController.swift; sourceTree = "<group>"; };
-		28A5185E1CDE87A300BE7ED1 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		28A518601CDE8ADF00BE7ED1 /* KeyListener + Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeyListener + Realm.swift"; sourceTree = "<group>"; };
-		28A518621CDE91C200BE7ED1 /* ExcludeViewController + NSTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExcludeViewController + NSTableViewDataSource.swift"; sourceTree = "<group>"; };
-		28A518661CDE997400BE7ED1 /* ExcludeViewController + NSTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExcludeViewController + NSTableViewDelegate.swift"; sourceTree = "<group>"; };
-		28BEB6811CDBE79D00E693D3 /* AccessibilityWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityWindowController.swift; sourceTree = "<group>"; };
-		28BEB6851CDBEB4F00E693D3 /* OpenPreferences.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenPreferences.scpt; sourceTree = "<group>"; };
-		28BEB6871CDBEB8200E693D3 /* AccessibilityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityViewController.swift; sourceTree = "<group>"; };
-		28DEC8031CD950450012B5E3 /* HUDAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDAlert.swift; sourceTree = "<group>"; };
-		28DEC8051CD954EA0012B5E3 /* HUDView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
-		28F40A701CFB61EB006719C8 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		55B461F5EE3BE302188BAC0C /* Pods-QBlocker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBlocker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QBlocker/Pods-QBlocker.debug.xcconfig"; sourceTree = "<group>"; };
 		9AE2D0BFC44767B8D2FE86C2 /* Pods_QBlocker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QBlocker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3F762D47D17E2933604A226 /* Pods-QBlocker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QBlocker.release.xcconfig"; path = "Pods/Target Support Files/Pods-QBlocker/Pods-QBlocker.release.xcconfig"; sourceTree = "<group>"; };
 		B12B3DD321AEF3AC00BAE6B6 /* QBlocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QBlocker.entitlements; sourceTree = "<group>"; };
-		B1E907CD21AF8B460074B5DB /* CocoaSwiftSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaSwiftSupport.swift; sourceTree = "<group>"; };
+		E9C85A882573E28E00436023 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9C85A922573E2E000436023 /* ExcludeViewController+NSTableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExcludeViewController+NSTableViewDelegate.swift"; sourceTree = "<group>"; };
+		E9C85A932573E2E000436023 /* ExcludeViewController+NSTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ExcludeViewController+NSTableViewDataSource.swift"; sourceTree = "<group>"; };
+		E9C85A942573E2E000436023 /* KeyListener+Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeyListener+Realm.swift"; sourceTree = "<group>"; };
+		E9C85A962573E2E000436023 /* NSApplication+LaunchServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+LaunchServices.m"; sourceTree = "<group>"; };
+		E9C85A972573E2E000436023 /* NSApplication+LaunchServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplication+LaunchServices.h"; sourceTree = "<group>"; };
+		E9C85A992573E2E000436023 /* ListMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMode.swift; sourceTree = "<group>"; };
+		E9C85A9A2573E2E000436023 /* KeyListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyListener.swift; sourceTree = "<group>"; };
+		E9C85A9B2573E2E000436023 /* KeyListenerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyListenerError.swift; sourceTree = "<group>"; };
+		E9C85A9C2573E2E000436023 /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
+		E9C85A9D2573E2E000436023 /* CocoaSwiftSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaSwiftSupport.swift; sourceTree = "<group>"; };
+		E9C85A9E2573E2E000436023 /* AtLogin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AtLogin.swift; sourceTree = "<group>"; };
+		E9C85A9F2573E2E000436023 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		E9C85AA22573E2E000436023 /* AccessibilityWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityWindowController.swift; sourceTree = "<group>"; };
+		E9C85AA32573E2E000436023 /* ExcludeWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcludeWindowController.swift; sourceTree = "<group>"; };
+		E9C85AA42573E2E000436023 /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		E9C85AA62573E2E000436023 /* HUDView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDView.swift; sourceTree = "<group>"; };
+		E9C85AA72573E2E000436023 /* HUDAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUDAlert.swift; sourceTree = "<group>"; };
+		E9C85AA92573E2E000436023 /* AccessibilityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccessibilityViewController.swift; sourceTree = "<group>"; };
+		E9C85AAA2573E2E000436023 /* ExcludeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcludeViewController.swift; sourceTree = "<group>"; };
+		E9C85AAB2573E2E000436023 /* FirstRunViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstRunViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9C85A792573E03300436023 /* BuildFile in Frameworks */,
-				E9C85A772573E03300436023 /* BuildFile in Frameworks */,
+				E9C85A792573E03300436023 /* RealmSwift in Frameworks */,
+				E9C85A772573E03300436023 /* Realm in Frameworks */,
 				E9C85A4A2573DD7800436023 /* Pods_QBlocker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,26 +83,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		280140131CDA9B4600BC2E78 /* First Launch */ = {
-			isa = PBXGroup;
-			children = (
-				28BEB6811CDBE79D00E693D3 /* AccessibilityWindowController.swift */,
-				28BEB6871CDBEB8200E693D3 /* AccessibilityViewController.swift */,
-				2883C1E41CDE36B10007AC47 /* FirstRunViewController.swift */,
-				28BEB6851CDBEB4F00E693D3 /* OpenPreferences.scpt */,
-			);
-			name = "First Launch";
-			sourceTree = "<group>";
-		};
-		280140161CDA9D9000BC2E78 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				280140141CDA9D5200BC2E78 /* AtLogin.swift */,
-				B1E907CD21AF8B460074B5DB /* CocoaSwiftSupport.swift */,
-			);
-			name = Utility;
-			sourceTree = "<group>";
-		};
 		2832CA291CD688E8001D3373 = {
 			isa = PBXGroup;
 			children = (
@@ -124,29 +105,15 @@
 			isa = PBXGroup;
 			children = (
 				B12B3DD321AEF3AC00BAE6B6 /* QBlocker.entitlements */,
-				28A518591CDE415100BE7ED1 /* Preferences */,
-				280140161CDA9D9000BC2E78 /* Utility */,
-				280140131CDA9B4600BC2E78 /* First Launch */,
-				28437E4C1CD93DB0002E90EF /* Key Listener */,
+				E9C85A882573E28E00436023 /* AppDelegate.swift */,
+				E9C85A982573E2E000436023 /* Class */,
+				E9C85A912573E2E000436023 /* Extension */,
+				E9C85AA02573E2E000436023 /* UI */,
 				2880C4511CD7B37C00545E1F /* Supporting Files */,
 				2832CA351CD688E9001D3373 /* AppDelegate.swift */,
-				2853B63A1CD92D9700F186CE /* StatusMenuController.swift */,
 				2832CA3B1CD688E9001D3373 /* Main.storyboard */,
 			);
 			path = QBlocker;
-			sourceTree = "<group>";
-		};
-		28437E4C1CD93DB0002E90EF /* Key Listener */ = {
-			isa = PBXGroup;
-			children = (
-				2880C4521CD7B3A000545E1F /* KeyListener.swift */,
-				28A518601CDE8ADF00BE7ED1 /* KeyListener + Realm.swift */,
-				28437E4D1CD93DE4002E90EF /* KeyListenerError.swift */,
-				28DEC8031CD950450012B5E3 /* HUDAlert.swift */,
-				28DEC8051CD954EA0012B5E3 /* HUDView.swift */,
-				2883C1E21CDE30BF0007AC47 /* Delay.swift */,
-			);
-			name = "Key Listener";
 			sourceTree = "<group>";
 		};
 		2880C4511CD7B37C00545E1F /* Supporting Files */ = {
@@ -157,20 +124,6 @@
 				2879D1171CDA529C00B64F00 /* Bridge.h */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		28A518591CDE415100BE7ED1 /* Preferences */ = {
-			isa = PBXGroup;
-			children = (
-				28A5185C1CDE49CD00BE7ED1 /* ExcludeViewController.swift */,
-				28A518621CDE91C200BE7ED1 /* ExcludeViewController + NSTableViewDataSource.swift */,
-				28A518661CDE997400BE7ED1 /* ExcludeViewController + NSTableViewDelegate.swift */,
-				28A5185A1CDE416800BE7ED1 /* ExcludeWindowController.swift */,
-				28A5185E1CDE87A300BE7ED1 /* App.swift */,
-				13FA35AB1CF623C400A29767 /* ListMode.swift */,
-				28F40A701CFB61EB006719C8 /* TabBarController.swift */,
-			);
-			name = Preferences;
 			sourceTree = "<group>";
 		};
 		67690C1FE916FDD1AE76C543 /* Pods */ = {
@@ -188,6 +141,79 @@
 				9AE2D0BFC44767B8D2FE86C2 /* Pods_QBlocker.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9C85A912573E2E000436023 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E9C85A922573E2E000436023 /* ExcludeViewController+NSTableViewDelegate.swift */,
+				E9C85A932573E2E000436023 /* ExcludeViewController+NSTableViewDataSource.swift */,
+				E9C85A942573E2E000436023 /* KeyListener+Realm.swift */,
+				E9C85A952573E2E000436023 /* NSApplication+LaunchServices */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		E9C85A952573E2E000436023 /* NSApplication+LaunchServices */ = {
+			isa = PBXGroup;
+			children = (
+				E9C85A962573E2E000436023 /* NSApplication+LaunchServices.m */,
+				E9C85A972573E2E000436023 /* NSApplication+LaunchServices.h */,
+			);
+			path = "NSApplication+LaunchServices";
+			sourceTree = "<group>";
+		};
+		E9C85A982573E2E000436023 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				E9C85A992573E2E000436023 /* ListMode.swift */,
+				E9C85A9A2573E2E000436023 /* KeyListener.swift */,
+				E9C85A9B2573E2E000436023 /* KeyListenerError.swift */,
+				E9C85A9C2573E2E000436023 /* Delay.swift */,
+				E9C85A9D2573E2E000436023 /* CocoaSwiftSupport.swift */,
+				E9C85A9E2573E2E000436023 /* AtLogin.swift */,
+				E9C85A9F2573E2E000436023 /* App.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		E9C85AA02573E2E000436023 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E9C85AA12573E2E000436023 /* WindowController */,
+				E9C85AA42573E2E000436023 /* StatusMenuController.swift */,
+				E9C85AA52573E2E000436023 /* View */,
+				E9C85AA82573E2E000436023 /* ViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E9C85AA12573E2E000436023 /* WindowController */ = {
+			isa = PBXGroup;
+			children = (
+				E9C85AA22573E2E000436023 /* AccessibilityWindowController.swift */,
+				E9C85AA32573E2E000436023 /* ExcludeWindowController.swift */,
+			);
+			path = WindowController;
+			sourceTree = "<group>";
+		};
+		E9C85AA52573E2E000436023 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9C85AA62573E2E000436023 /* HUDView.swift */,
+				E9C85AA72573E2E000436023 /* HUDAlert.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E9C85AA82573E2E000436023 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E9C85AA92573E2E000436023 /* AccessibilityViewController.swift */,
+				E9C85AAA2573E2E000436023 /* ExcludeViewController.swift */,
+				E9C85AAB2573E2E000436023 /* FirstRunViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,8 +234,8 @@
 			);
 			name = QBlocker;
 			packageProductDependencies = (
-				E9C85A762573E03300436023 /* SwiftPackageProductDependency */,
-				E9C85A782573E03300436023 /* SwiftPackageProductDependency */,
+				E9C85A762573E03300436023 /* Realm */,
+				E9C85A782573E03300436023 /* RealmSwift */,
 			);
 			productName = QBlocker;
 			productReference = 2832CA321CD688E9001D3373 /* QBlocker 1.3 beta 1.app */;
@@ -250,7 +276,7 @@
 			);
 			mainGroup = 2832CA291CD688E8001D3373;
 			packageReferences = (
-				E9C85A752573E03300436023 /* RemoteSwiftPackageReference */,
+				E9C85A752573E03300436023 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
 			);
 			productRefGroup = 2832CA331CD688E9001D3373 /* Products */;
 			projectDirPath = "";
@@ -266,7 +292,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28BEB6861CDBEB6500E693D3 /* OpenPreferences.scpt in Resources */,
 				2832CA3A1CD688E9001D3373 /* Assets.xcassets in Resources */,
 				2832CA3D1CD688E9001D3373 /* Main.storyboard in Resources */,
 			);
@@ -304,26 +329,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13FA35AC1CF623C400A29767 /* ListMode.swift in Sources */,
-				B1E907CE21AF8B460074B5DB /* CocoaSwiftSupport.swift in Sources */,
-				28DEC8061CD954EA0012B5E3 /* HUDView.swift in Sources */,
-				28A518631CDE91C200BE7ED1 /* ExcludeViewController + NSTableViewDataSource.swift in Sources */,
-				2853B63B1CD92D9700F186CE /* StatusMenuController.swift in Sources */,
-				28A5185B1CDE416800BE7ED1 /* ExcludeWindowController.swift in Sources */,
-				28BEB6831CDBE79D00E693D3 /* AccessibilityWindowController.swift in Sources */,
-				2880C4531CD7B3A000545E1F /* KeyListener.swift in Sources */,
-				28A5185F1CDE87A300BE7ED1 /* App.swift in Sources */,
-				280140151CDA9D5200BC2E78 /* AtLogin.swift in Sources */,
-				28A518671CDE997400BE7ED1 /* ExcludeViewController + NSTableViewDelegate.swift in Sources */,
-				28F40A711CFB61EB006719C8 /* TabBarController.swift in Sources */,
-				28DEC8041CD950450012B5E3 /* HUDAlert.swift in Sources */,
-				28A5185D1CDE49CD00BE7ED1 /* ExcludeViewController.swift in Sources */,
-				28437E4E1CD93DE4002E90EF /* KeyListenerError.swift in Sources */,
+				E9C85ABB2573E2E000436023 /* HUDAlert.swift in Sources */,
+				E9C85AB62573E2E000436023 /* App.swift in Sources */,
+				E9C85AAF2573E2E000436023 /* NSApplication+LaunchServices.m in Sources */,
+				E9C85AB92573E2E000436023 /* StatusMenuController.swift in Sources */,
+				E9C85AB82573E2E000436023 /* ExcludeWindowController.swift in Sources */,
+				E9C85AAE2573E2E000436023 /* KeyListener+Realm.swift in Sources */,
+				E9C85AAC2573E2E000436023 /* ExcludeViewController+NSTableViewDelegate.swift in Sources */,
+				E9C85AB42573E2E000436023 /* CocoaSwiftSupport.swift in Sources */,
+				E9C85AB12573E2E000436023 /* KeyListener.swift in Sources */,
+				E9C85ABA2573E2E000436023 /* HUDView.swift in Sources */,
+				E9C85AB22573E2E000436023 /* KeyListenerError.swift in Sources */,
+				E9C85ABD2573E2E000436023 /* ExcludeViewController.swift in Sources */,
+				E9C85A8C2573E28E00436023 /* AppDelegate.swift in Sources */,
+				E9C85ABC2573E2E000436023 /* AccessibilityViewController.swift in Sources */,
+				E9C85AB02573E2E000436023 /* ListMode.swift in Sources */,
 				2832CA361CD688E9001D3373 /* AppDelegate.swift in Sources */,
-				28A518611CDE8ADF00BE7ED1 /* KeyListener + Realm.swift in Sources */,
-				2883C1E61CDE36B10007AC47 /* FirstRunViewController.swift in Sources */,
-				28BEB6881CDBEB8200E693D3 /* AccessibilityViewController.swift in Sources */,
-				2883C1E31CDE30BF0007AC47 /* Delay.swift in Sources */,
+				E9C85AAD2573E2E000436023 /* ExcludeViewController+NSTableViewDataSource.swift in Sources */,
+				E9C85AB52573E2E000436023 /* AtLogin.swift in Sources */,
+				E9C85AB72573E2E000436023 /* AccessibilityWindowController.swift in Sources */,
+				E9C85AB32573E2E000436023 /* Delay.swift in Sources */,
+				E9C85ABE2573E2E000436023 /* FirstRunViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,7 +546,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E9C85A752573E03300436023 /* RemoteSwiftPackageReference */ = {
+		E9C85A752573E03300436023 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-cocoa.git";
 			requirement = {
@@ -531,14 +557,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E9C85A762573E03300436023 /* SwiftPackageProductDependency */ = {
+		E9C85A762573E03300436023 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E9C85A752573E03300436023 /* RemoteSwiftPackageReference */;
+			package = E9C85A752573E03300436023 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
 			productName = Realm;
 		};
-		E9C85A782573E03300436023 /* SwiftPackageProductDependency */ = {
+		E9C85A782573E03300436023 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E9C85A752573E03300436023 /* RemoteSwiftPackageReference */;
+			package = E9C85A752573E03300436023 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
 			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */

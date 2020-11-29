@@ -34,3 +34,6 @@ I'm not currently accepting donations, instead please consider donating to one o
 - **[Shelter](http://www.shelter.org.uk)**
 - **[Epilepsy Action](https://www.epilepsy.org.uk/involved/donations)**
 - **[UNICEF](http://www.unicef.org.uk)**
+
+## License
+- [NSApplication+LaunchServices](https://github.com/macmade/Hot)

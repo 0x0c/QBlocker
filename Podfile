@@ -4,5 +4,4 @@ use_frameworks!
 target 'QBlocker' do
     pod 'SwiftFormat/CLI'
     pod 'SwiftLint'
-    pod 'RealmSwift'
 end

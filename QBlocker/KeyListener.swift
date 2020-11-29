@@ -6,6 +6,8 @@
 //  Copyright © 2016 Cocoon Development Ltd. All rights reserved.
 //
 
+import AppKit
+import Foundation
 import RealmSwift
 
 private func keyDownCallback(proxy _: CGEventTapProxy, type _: CGEventType, event: CGEvent, ptr _: UnsafeMutableRawPointer?) -> Unmanaged<CGEvent>? {

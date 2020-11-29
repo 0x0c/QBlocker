@@ -6,6 +6,7 @@
 //  Copyright © 2016 Cocoon Development Ltd. All rights reserved.
 //
 
+import Foundation
 import RealmSwift
 
 class App: Object {

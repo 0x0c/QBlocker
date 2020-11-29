@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07F0E51805F533AB1219CC1A /* Pods_QBlocker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE2D0BFC44767B8D2FE86C2 /* Pods_QBlocker.framework */; };
 		13FA35AC1CF623C400A29767 /* ListMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FA35AB1CF623C400A29767 /* ListMode.swift */; };
 		280140151CDA9D5200BC2E78 /* AtLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280140141CDA9D5200BC2E78 /* AtLogin.swift */; };
 		2832CA361CD688E9001D3373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2832CA351CD688E9001D3373 /* AppDelegate.swift */; };
@@ -31,6 +30,9 @@
 		28DEC8061CD954EA0012B5E3 /* HUDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DEC8051CD954EA0012B5E3 /* HUDView.swift */; };
 		28F40A711CFB61EB006719C8 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F40A701CFB61EB006719C8 /* TabBarController.swift */; };
 		B1E907CE21AF8B460074B5DB /* CocoaSwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E907CD21AF8B460074B5DB /* CocoaSwiftSupport.swift */; };
+		E9C85A4A2573DD7800436023 /* Pods_QBlocker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE2D0BFC44767B8D2FE86C2 /* Pods_QBlocker.framework */; };
+		E9C85A772573E03300436023 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = E9C85A762573E03300436023 /* SwiftPackageProductDependency */; };
+		E9C85A792573E03300436023 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = E9C85A782573E03300436023 /* SwiftPackageProductDependency */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,7 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07F0E51805F533AB1219CC1A /* Pods_QBlocker.framework in Frameworks */,
+				E9C85A792573E03300436023 /* BuildFile in Frameworks */,
+				E9C85A772573E03300436023 /* BuildFile in Frameworks */,
+				E9C85A4A2573DD7800436023 /* Pods_QBlocker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,13 +201,16 @@
 				2832CA2E1CD688E9001D3373 /* Sources */,
 				2832CA2F1CD688E9001D3373 /* Frameworks */,
 				2832CA301CD688E9001D3373 /* Resources */,
-				A029F5A304AA443AB8C88A1B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = QBlocker;
+			packageProductDependencies = (
+				E9C85A762573E03300436023 /* SwiftPackageProductDependency */,
+				E9C85A782573E03300436023 /* SwiftPackageProductDependency */,
+			);
 			productName = QBlocker;
 			productReference = 2832CA321CD688E9001D3373 /* QBlocker 1.3 beta 1.app */;
 			productType = "com.apple.product-type.application";
@@ -242,6 +249,9 @@
 				Base,
 			);
 			mainGroup = 2832CA291CD688E8001D3373;
+			packageReferences = (
+				E9C85A752573E03300436023 /* RemoteSwiftPackageReference */,
+			);
 			productRefGroup = 2832CA331CD688E9001D3373 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -285,26 +295,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A029F5A304AA443AB8C88A1B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QBlocker/Pods-QBlocker-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
-				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QBlocker/Pods-QBlocker-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -469,8 +459,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QBlocker/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.wearecocoon.QBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME) 1.3 beta 1";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -490,8 +483,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = QBlocker/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = uk.co.wearecocoon.QBlocker;
 				PRODUCT_NAME = "$(TARGET_NAME) 1.3 beta 1";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -522,6 +518,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9C85A752573E03300436023 /* RemoteSwiftPackageReference */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9C85A762573E03300436023 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9C85A752573E03300436023 /* RemoteSwiftPackageReference */;
+			productName = Realm;
+		};
+		E9C85A782573E03300436023 /* SwiftPackageProductDependency */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9C85A752573E03300436023 /* RemoteSwiftPackageReference */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2832CA2A1CD688E8001D3373 /* Project object */;
 }

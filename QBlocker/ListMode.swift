@@ -7,6 +7,6 @@
 //
 
 enum ListMode: Int {
-    case blacklist = 0
-    case whitelist = 1
+    case denyList = 0
+    case allowList = 1
 }

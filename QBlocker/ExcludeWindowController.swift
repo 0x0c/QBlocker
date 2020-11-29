@@ -9,13 +9,7 @@
 import Cocoa
 
 class ExcludeWindowController: NSWindowController {
-
     override func windowDidLoad() {
         super.windowDidLoad()
-    
-        window?.titlebarAppearsTransparent = true
-        window?.titleVisibility = .hidden
-        window?.isMovableByWindowBackground = true
     }
-
 }

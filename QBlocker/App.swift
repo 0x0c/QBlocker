@@ -9,15 +9,13 @@
 import RealmSwift
 
 class App: Object {
-    
     /// The name of the app that will be displayed as a label
     @objc dynamic var name = ""
-    
+
     /// The bundle ID of the app. e.g. uk.co.wearecocoon.QBlocker
     @objc dynamic var bundleID = ""
-    
+
     override static func primaryKey() -> String? {
-        return "bundleID"
+        "bundleID"
     }
-    
 }

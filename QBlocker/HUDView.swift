@@ -9,22 +9,19 @@
 import Cocoa
 
 class HUDView: NSView {
+    @IBOutlet private var textLabel: NSTextField!
 
-	@IBOutlet var textLabel: NSTextField!
-	
-	override func awakeFromNib() {
-		
-		super.awakeFromNib()
+    override func awakeFromNib() {
+        super.awakeFromNib()
 
-		wantsLayer = true
-		layer?.cornerRadius = 12
-	}
-	
-	override func draw(_ dirtyRect: NSRect) {
-	
-		super.draw(dirtyRect)
-		
-		NSColor.controlTextColor.setFill()
-		__NSRectFill(dirtyRect)
-	}
+        wantsLayer = true
+        layer?.cornerRadius = 12
+    }
+
+    override func draw(_ dirtyRect: NSRect) {
+        super.draw(dirtyRect)
+
+        NSColor.controlTextColor.setFill()
+        __NSRectFill(dirtyRect)
+    }
 }

@@ -10,12 +10,11 @@ import Cocoa
 import RealmSwift
 
 class ExcludeViewController: NSViewController {
+    @IBOutlet private var tableView: NSTableView!
 
-    @IBOutlet weak var tableView: NSTableView!
-    
     // MARK: - Actions
-    
-    @IBAction func addClicked(_ sender: AnyObject) {
+
+    @IBAction private func addClicked(_: AnyObject) {
         let panel = NSOpenPanel()
         panel.title = "Choose a .app"
         panel.canChooseDirectories = false
@@ -24,36 +23,34 @@ class ExcludeViewController: NSViewController {
         panel.allowsMultipleSelection = true
         panel.allowedFileTypes = ["app"]
         panel.beginSheetModal(for: view.window!) { response in
-            if (response == .OK) {
+            if response == .OK {
                 for url in panel.urls {
-					
-					guard let bundle = Bundle(url: url)?.bundleIdentifier else {
+                    guard let bundle = Bundle(url: url)?.bundleIdentifier else {
                         continue
                     }
-                    
+
                     let name = FileManager.default.displayName(atPath: url.path)
-                    
+
                     let app = App()
                     app.name = name
                     app.bundleID = bundle
-					KeyListener.shared.add(excludedApp: app)
+                    KeyListener.shared.add(excludedApp: app)
                 }
                 self.tableView.reloadData()
             }
         }
     }
-    
-    @IBAction func removeClicked(_ sender: AnyObject) {
-        guard tableView.selectedRowIndexes.count > 0 else {
-                print("Nothing selected")
-                return
-            }
-        
-		tableView.selectedRowIndexes
-			.map { index in KeyListener.shared.list[index] }
-			.forEach { app in KeyListener.shared.remove(excludedApp: app) }
-		
+
+    @IBAction private func removeClicked(_: AnyObject) {
+        guard tableView.selectedRowIndexes.isEmpty == false else {
+            print("Nothing selected")
+            return
+        }
+
+        tableView.selectedRowIndexes
+            .map { index in KeyListener.shared.list[index] }
+            .forEach { app in KeyListener.shared.remove(excludedApp: app) }
+
         tableView.reloadData()
     }
-    
 }

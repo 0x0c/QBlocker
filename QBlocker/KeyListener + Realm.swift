@@ -9,25 +9,25 @@
 import RealmSwift
 
 extension KeyListener {
-    
     /**
      Add an excluded app to the Realm
-     
+
      - parameter app: The app to be added
      */
     func add(excludedApp app: App) {
         do {
             try realm.write {
-                realm.add(app, update: true)
+                realm.add(app, update: .all)
             }
-        } catch {
+        }
+        catch {
             print("Could not write excluded app")
         }
     }
-    
+
     /**
      Remove an app from the Realm
-     
+
      - parameter app: The app to be removed
      */
     func remove(excludedApp app: App) {
@@ -35,9 +35,9 @@ extension KeyListener {
             try realm.write {
                 realm.delete(app)
             }
-        } catch {
+        }
+        catch {
             print("Could not remove excluded app")
         }
     }
-    
 }

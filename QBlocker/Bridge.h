@@ -9,6 +9,4 @@
 #ifndef Bridge_h
 #define Bridge_h
 
-#import <DevMateKit/DevMateKit.h>
-
 #endif /* Bridge_h */

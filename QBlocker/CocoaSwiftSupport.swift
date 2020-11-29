@@ -9,9 +9,7 @@
 import Cocoa
 
 extension NSWindow.Level {
-	
-	init(_ key: CGWindowLevelKey) {
-		
-		self.init(rawValue: Int(CGWindowLevelForKey(key)))
-	}
+    init(_ key: CGWindowLevelKey) {
+        self.init(rawValue: Int(CGWindowLevelForKey(key)))
+    }
 }

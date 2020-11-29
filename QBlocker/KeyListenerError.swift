@@ -9,7 +9,5 @@
 import Foundation
 
 enum KeyListenerError: Error {
-    
-    case AccessibilityPermissionDenied
-    
+    case accessibilityPermissionDenied
 }

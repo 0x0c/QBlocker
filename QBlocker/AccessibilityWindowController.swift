@@ -9,7 +9,6 @@
 import Cocoa
 
 class AccessibilityWindowController: NSWindowController {
-
     override func windowDidLoad() {
         super.windowDidLoad()
 
